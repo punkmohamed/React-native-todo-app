@@ -1,3 +1,12 @@
+## App Photos
+
+<p align="center">
+  <img src="assets/images/1.jpeg" alt="App screenshot 1" width="300" />
+  <img src="assets/images/2.jpeg" alt="App screenshot 2" width="300" />
+  <img src="assets/images/3.jpeg" alt="App screenshot 3" width="300" />
+</p>
+
+
 # TaskFlow — React Native Task Manager (Expo)
 
 A simple Task Manager app built with React Native and Expo. It allows users to add tasks, mark them complete, and delete them. The app focuses on clean UI, local state management, and straightforward interactions.
@@ -33,6 +42,8 @@ A simple Task Manager app built with React Native and Expo. It allows users to a
 ## Project Notes
 - State Management: Local component state in the main screen manages task data, passed down via props.
 - Components: AddTaskModal, TaskItem, Header, Sidebar, FilterModal.
+
+
 
 ## Future Adjustments
 - SQLite Persistence:
