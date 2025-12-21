@@ -25,7 +25,9 @@ export default function Header({ onOpenSidebar, onOpenFilters, activeCount, acti
     <View className="px-6 py-4 bg-white border-b border-gray-100">
       <View className="flex-row items-center justify-between">
         <View className="flex-row items-center">
-          <Animated.View style={menuAnimatedStyle}>              {/* Menu button: opens sidebar, with light haptic and scale animation */}            <TouchableOpacity
+          <Animated.View style={menuAnimatedStyle}>
+            {/* Menu button: opens sidebar, with light haptic and scale animation */}
+            <TouchableOpacity
               onPress={() => { Haptics.selectionAsync(); onOpenSidebar(); }}
               onPressIn={() => { menuScale.value = withSpring(0.95); }}
               onPressOut={() => { menuScale.value = withSpring(1); }}
